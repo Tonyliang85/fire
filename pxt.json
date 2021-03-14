@@ -1,0 +1,23 @@
+{
+    "name": "机器人巡线及灭火实验",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "makebit": "github:zhuning239/makebit#a63cb2f33b371262d59d350789d6a011d5041b1f",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
